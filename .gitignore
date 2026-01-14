@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# FastAPI
+*.db
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# VS Code / Jetbrains
+.vscode/
+.idea/
+
+# Byte-compiled
+*.pyo
+*.pyd
+
+# OS crap
+.DS_Store
+Thumbs.db
